@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Aura Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "price": 149.99,
+    "originalPrice": 199.99,
+    "rating": 4.8,
+    "reviewCount": 142,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80",
+    "description": "Immerse yourself in rich, high-fidelity sound with 40-hour battery life and advanced hybrid active noise cancellation.",
+    "features": [
+      "Hybrid Active Noise Cancelling",
+      "40 Hours Battery Life with Quick Charge",
+      "Bluetooth 5.3 Multi-point Connectivity",
+      "Plush Memory Foam Ear Cushions"
+    ],
+    "stock": 18,
+    "isFeatured": true
+  },
+  {
+    "id": 2,
+    "name": "Chronos Minimalist Watch",
+    "category": "Accessories",
+    "price": 89.50,
+    "originalPrice": 120.00,
+    "rating": 4.7,
+    "reviewCount": 89,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+    "description": "Timeless Scandinavian design featuring a genuine leather strap, sapphire crystal glass, and Japanese quartz movement.",
+    "features": [
+      "Sapphire Crystal Scratch-Resistant Glass",
+      "Genuine Italian Leather Strap",
+      "Water Resistant to 5 ATM (50m)",
+      "Ultra-Slim 7mm Case"
+    ],
+    "stock": 25,
+    "isFeatured": true
+  },
+  {
+    "id": 3,
+    "name": "Heritage Canvas Backpack",
+    "category": "Accessories",
+    "price": 64.00,
+    "originalPrice": 79.99,
+    "rating": 4.6,
+    "reviewCount": 64,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+    "description": "Crafted from durable water-resistant canvas with vegetable-tanned leather accents and a padded 15-inch laptop compartment.",
+    "features": [
+      "Heavy-duty 16oz Waxed Cotton Canvas",
+      "Dedicated Padded 15\" Laptop Sleeve",
+      "Ergonomic Breathable Shoulder Straps",
+      "Quick-Access Magnetic Buckles"
+    ],
+    "stock": 14,
+    "isFeatured": false
+  },
+  {
+    "id": 4,
+    "name": "Nova Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 119.00,
+    "originalPrice": 139.99,
+    "rating": 4.9,
+    "reviewCount": 210,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+    "description": "Custom mechanical keyboard with hot-swappable tactile switches, RGB per-key backlighting, and solid aluminum chassis.",
+    "features": [
+      "Hot-Swappable Switches (Gateron Brown)",
+      "Solid Aircraft-Grade Aluminum Top Plate",
+      "Dynamic RGB with 18 Custom Patterns",
+      "Type-C Detachable Braided Cable"
+    ],
+    "stock": 10,
+    "isFeatured": true
+  },
+  {
+    "id": 5,
+    "name": "Linen Everyday Overshirt",
+    "category": "Fashion",
+    "price": 54.99,
+    "originalPrice": 70.00,
+    "rating": 4.5,
+    "reviewCount": 53,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop&q=80",
+    "description": "Breathable 100% organic French linen tailored for casual layering through warm days and cool evenings.",
+    "features": [
+      "100% Certified Organic French Linen",
+      "Natural Corozo Nut Buttons",
+      "Garment-Washed for Instant Softness",
+      "Pre-shrunk Relaxed Fit"
+    ],
+    "stock": 32,
+    "isFeatured": false
+  },
+  {
+    "id": 6,
+    "name": "Artisan Ceramic Pour-Over Set",
+    "category": "Home",
+    "price": 38.00,
+    "originalPrice": 45.00,
+    "rating": 4.8,
+    "reviewCount": 77,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&auto=format&fit=crop&q=80",
+    "description": "Handmade ceramic dripper and matching glass carafe designed for balanced, barista-level slow coffee extraction.",
+    "features": [
+      "Hand-Glazed Stoneware Dripper",
+      "600ml Heat-Resistant Borosilicate Carafe",
+      "Optimized Spiral Ribs for Consistent Flow",
+      "Dishwasher Safe"
+    ],
+    "stock": 19,
+    "isFeatured": true
+  },
+  {
+    "id": 7,
+    "name": "Polarized Acetate Sunglasses",
+    "category": "Accessories",
+    "price": 75.00,
+    "originalPrice": 95.00,
+    "rating": 4.6,
+    "reviewCount": 42,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&auto=format&fit=crop&q=80",
+    "description": "Modern square frames crafted from hand-polished cellulose acetate with UV400 polarized clarity lenses.",
+    "features": [
+      "100% UVA/UVB UV400 Protection",
+      "Handcrafted Cellulose Acetate Frame",
+      "Durable 5-Barrel Stainless Steel Hinges",
+      "Includes Vegan Leather Hard Case"
+    ],
+    "stock": 22,
+    "isFeatured": false
+  },
+  {
+    "id": 8,
+    "name": "Aroma Ultrasonic Diffuser",
+    "category": "Home",
+    "price": 42.50,
+    "originalPrice": 52.00,
+    "rating": 4.7,
+    "reviewCount": 115,
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80",
+    "description": "Whisper-quiet ultrasonic mist diffuser with natural ceramic cover, ambient warm LED, and automatic shut-off.",
+    "features": [
+      "Matte Finish Hand-Crafted Ceramic Shell",
+      "Up to 10 Hours Continuous Ultrasonic Mist",
+      "2-Level Ambient Warm White Light",
+      "Auto-Safety Shut-off When Water Runs Out"
+    ],
+    "stock": 15,
+    "isFeatured": false
+  },
+  {
+    "id": 9,
+    "name": "Ergonomic Walnut Desk Mat",
+    "category": "Home",
+    "price": 32.00,
+    "originalPrice": 40.00,
+    "rating": 4.8,
+    "reviewCount": 88,
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&auto=format&fit=crop&q=80",
+    "description": "Dual-sided vegan leather and natural wool felt desk pad providing a smooth mouse glide and scratch protection.",
+    "features": [
+      "Premium Spill-Resistant Vegan Leather",
+      "Generous 90cm x 45cm Surface Area",
+      "Non-Slip Base Keeps Workspace Tidy",
+      "Easy to Clean with Damp Cloth"
+    ],
+    "stock": 40,
+    "isFeatured": false
+  },
+  {
+    "id": 10,
+    "name": "Voyager Wireless Earbuds",
+    "category": "Electronics",
+    "price": 79.99,
+    "originalPrice": 99.99,
+    "rating": 4.7,
+    "reviewCount": 164,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&auto=format&fit=crop&q=80",
+    "description": "Pocket-sized true wireless earbuds with punchy bass, IPX7 sweat resistance, and seamless touch controls.",
+    "features": [
+      "True Wireless Stereo with 10mm Dynamic Drivers",
+      "32 Hours Total Playtime with Charging Case",
+      "IPX7 Waterproof for Workouts & Rain",
+      "Intuitive Smart Touch Controls"
+    ],
+    "stock": 28,
+    "isFeatured": true
+  },
+  {
+    "id": 11,
+    "name": "Classic Oxford Cotton Shirt",
+    "category": "Fashion",
+    "price": 49.00,
+    "originalPrice": 65.00,
+    "rating": 4.6,
+    "reviewCount": 91,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&auto=format&fit=crop&q=80",
+    "description": "Crisp, tailored button-down shirt woven from heavy-spun Egyptian combed cotton for all-day comfort.",
+    "features": [
+      "100% Combed Egyptian Cotton",
+      "Button-Down Collar with Structured Placket",
+      "Single Chest Pocket with Reinforced Stitching",
+      "Machine Washable & Wrinkle Resistant"
+    ],
+    "stock": 35,
+    "isFeatured": false
+  },
+  {
+    "id": 12,
+    "name": "Trailblazer Field Watch",
+    "category": "Accessories",
+    "price": 98.00,
+    "originalPrice": 125.00,
+    "rating": 4.8,
+    "reviewCount": 59,
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=800&auto=format&fit=crop&q=80",
+    "description": "Rugged stainless steel field watch with military-grade ballistic nylon NATO strap and luminous numerals.",
+    "features": [
+      "Solid 316L Stainless Steel Case",
+      "High-Visibility Super-LumiNova Hands",
+      "Heavy-Duty Waterproof NATO Webbing Strap",
+      "100m Water Resistance"
+    ],
+    "stock": 16,
+    "isFeatured": false
+  }
+]

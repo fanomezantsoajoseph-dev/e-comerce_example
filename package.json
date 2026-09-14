@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "description": "Simple modern e-commerce application with React.js and Node.js",
+  "scripts": {
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js",
+    "dev": "node start-dev.js"
+  },
+  "devDependencies": {}
+}
