@@ -991,3 +991,16 @@ a {
   font-size: 0.82rem;
   color: #64748b;
 }
+
+.singin {
+  margin: 1vw;
+  background-color: var(--accent);
+  padding: 0.5vw;
+  border-radius: 0.4vw;
+  }
+.login {
+  background-color:green;
+  padding: 0.5vw;
+  color: #ffffff;
+  border-radius: 0.4vw;
+}

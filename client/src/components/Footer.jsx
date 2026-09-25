@@ -52,7 +52,7 @@ export const Footer = ({ onSelectCategory }) => {
               <div className="brand-icon">
                 <Sparkles size={20} />
               </div>
-              <span>NovaStore</span>
+              <span>e-comerce</span>
             </div>
             <p style={{ fontSize: '0.88rem', lineHeight: 1.6, color: '#94a3b8', maxWidth: '300px' }}>
               Your premium destination for everyday elevated essentials, crafted with care and minimalist elegance.

@@ -17,6 +17,7 @@ router.get('/categories', (req, res) => {
   });
 
   res.json(Object.values(categoryMap));
+  
 });
 
 // GET /api/products - list products with filtering, search, and sorting

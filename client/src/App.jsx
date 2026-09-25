@@ -9,6 +9,7 @@ import { CheckoutModal } from './components/CheckoutModal';
 import { OrderConfirmation } from './components/OrderConfirmation';
 import { Footer } from './components/Footer';
 import { Toast } from './components/Toast';
+import { LoginPage } from './components/LoginPage';
 
 export function App() {
   const [products, setProducts] = useState([]);
@@ -18,7 +19,9 @@ export function App() {
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const [sortBy, setSortBy] = useState('featured');
   const [loading, setLoading] = useState(true);
-
+  const [Login, setLogin] = useState(false);
+  
+  
   // Modals & Drawers
   const [detailProduct, setDetailProduct] = useState(null);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
@@ -28,7 +31,7 @@ export function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setDebouncedSearch(search);
-    }, 250);
+    }, 10);
     return () => clearTimeout(timer);
   }, [search]);
 
@@ -39,6 +42,7 @@ export function App() {
       .then(data => setCategories(data))
       .catch(err => console.error('Failed to load categories', err));
   }, []);
+
 
   // Fetch products when filters/search/sort change
   const fetchProducts = useCallback(async () => {
@@ -123,6 +127,13 @@ export function App() {
         />
       )}
 
+      {/* {login form} */}
+      {Login && (
+        <LoginPage
+          onClose={() => setLogin(false)}
+        />
+      )}
+
       {/* Checkout Modal */}
       <CheckoutModal
         isOpen={isCheckoutOpen}
@@ -137,7 +148,7 @@ export function App() {
           onClose={() => setConfirmedOrder(null)}
         />
       )}
-
+      
       {/* Floating Toasts */}
       <Toast />
     </div>

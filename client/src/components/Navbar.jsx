@@ -2,6 +2,7 @@ import React from 'react';
 import { ShoppingBag, Search, X, Sparkles } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 
+
 export const Navbar = ({ search, setSearch, onSelectCategory }) => {
   const { cartCount, setIsCartOpen } = useCart();
 
@@ -18,7 +19,7 @@ export const Navbar = ({ search, setSearch, onSelectCategory }) => {
           <div className="brand-icon">
             <Sparkles size={20} />
           </div>
-          <span>NovaStore</span>
+          <span>e-comerce</span>
         </div>
 
         <div className="search-box">
@@ -46,10 +47,10 @@ export const Navbar = ({ search, setSearch, onSelectCategory }) => {
             </button>
           )}
         </div>
-
+         
         <div className="nav-actions">
-          <button 
-            className="cart-btn" 
+          <button
+            className="cart-btn"
             onClick={() => setIsCartOpen(true)}
             aria-label="View Shopping Cart"
           >
@@ -57,6 +58,10 @@ export const Navbar = ({ search, setSearch, onSelectCategory }) => {
             <span>Cart</span>
             {cartCount > 0 && <span className="cart-badge">{cartCount}</span>}
           </button>
+        </div>
+       
+        <div>
+
         </div>
       </div>
     </header>
